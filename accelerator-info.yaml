@@ -1,0 +1,24 @@
+id: 62f5cefa-89ba-4b9f-9579-7cdc15943278
+timestamp: 2023-12-12T14:10:01.898Z
+source: VSCODE
+username: jgouin
+accelerator:
+  name: java-server-side-ui
+fragments:
+  - name: app-sso-client
+  - name: build-wrapper-gradle
+  - name: build-wrapper-maven
+  - name: java-version
+  - name: live-update
+  - name: spring-boot-app-sso-auth-code-flow
+  - name: tap-workload
+options:
+  projectName: java-server-side-ui
+  artifactId: server-side-ui-starter
+  groupId: com.example
+  packageName: com.example.serversideuistarter
+  buildTool: maven
+  includeAppSsoIntegration: true
+  javaVersion: 11
+  liveUpdateIDESupport: true
+  includeBuildToolWrapper: true
